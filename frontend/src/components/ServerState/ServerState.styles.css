@@ -1,0 +1,32 @@
+.user-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 16px;
+    position: relative;
+    &.active {
+        &:after {
+          content: '';
+          position: absolute;
+          /* top: 50%;
+          left: -20px;
+          transform: translateY(-50%); */
+          left: -8px;
+          right: -8px;
+          top: -8px;
+          bottom: -8px;
+          background: #00000020;
+          border-radius: 8px;
+          z-index: -1;
+        }
+    }
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-connected-time {
+    font-weight: 200;
+    font-size: .8rem;
+}
+

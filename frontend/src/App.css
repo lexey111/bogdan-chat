@@ -1,0 +1,53 @@
+
+.current-user-connected {
+    opacity: .7;
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.user-connected-time {
+    font-weight: 200;
+    font-size: .8rem;
+    opacity: .7;
+}
+
+.main-app-login {
+    width: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.login-container {
+    width: clamp(200px, 40vw, 500px);
+    padding: 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.login-error {
+    color: #ff005d;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.chat-wrapper {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+}
